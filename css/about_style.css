@@ -1,0 +1,494 @@
+@charset "utf-8";
+
+
+/* web font */
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 100; 
+    font-style: normal; 
+    src: url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream1.woff2) format('woff2'),
+         url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream1.woff) format('woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 200; 
+    font-style: normal; 
+    src: url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream2.woff2) format('woff2'),
+         url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream2.woff) format('woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 300; 
+    font-style: normal; 
+    src: url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream3.woff2) format('woff2'),
+         url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream3.woff) format('woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 400; 
+    font-style: normal; 
+    src: url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream4.woff2) format('woff2'),
+         url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream4.woff) format('woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 500; 
+    font-style: normal; 
+    src: url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream5.woff2) format('woff2'),
+         url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream5.woff) format('woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 600; 
+    font-style: normal; 
+    src: url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream6.woff2) format('woff2'),
+         url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream6.woff) format('woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 700; 
+    font-style: normal; 
+    src: url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream7.woff2) format('woff2'),
+         url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream7.woff) format('woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 800; 
+    font-style: normal; 
+    src: url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream8.woff2) format('woff2'),
+         url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream8.woff) format('woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 900; 
+    font-style: normal; 
+    src: url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream9.woff2) format('woff2'),
+         url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream9.woff) format('woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'InkLipquid';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/InkLipquid.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,
+body,
+div,
+p,
+ul,
+ol,
+li,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+form,
+textarea,
+select,
+option,
+strong,
+span,
+em,
+dl,
+dt,
+dd,
+table,
+th,
+tr,
+td,
+img,
+video {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'SCoreDream';
+    font-size: 14px;
+    line-height: 24px;
+    color: #444;
+    font-weight: 300;
+
+}
+
+ul,
+ol {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#wrap {
+    min-width: 1320px;
+}
+
+
+
+/* header */
+
+#header {
+    height: 90px;
+    width: 1320px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.gnb {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-top: 5px;
+    text-align: center;
+
+}
+
+.gnb> li> a:hover{
+    color: rgb(255,181,181);
+    text-shadow: 1px 1px 20px;
+    font-weight: 600;
+}
+
+
+.link {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+.link li a {
+    margin: 0 20px;
+}
+
+.link li a:hover{
+    color: rgb(255,181,181);
+    text-shadow: 1px 1px 30px;
+    
+
+}
+.link li::before {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 13px;
+    vertical-align: -1px;
+    background-color: rgb(110, 110, 110);
+}
+
+.link li:nth-child(1)::before {
+    display: none;
+}
+
+
+/* mainbanner */
+
+
+.inner_main_banner img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -960px;}
+
+    
+.inner_main_banner {
+    position: relative;
+    height: 741px;
+    overflow: hidden;
+
+}
+
+    
+/* story */
+
+.sleeper_story{
+    text-align: center;
+    padding: 50px 0 100px 0;
+}
+
+
+.sleeper_story h2{
+    font-size: 60px;
+    font-family: 'InkLipquid';
+    line-height: 1.5em;
+    font-weight: 300;
+    padding-bottom: 30px;
+}
+
+
+.sleeper_story p{
+    font-size: 23px;
+    line-height: 1.5em;
+}
+
+.sleeper_story strong{
+    color: rgb(85,106,143);
+}
+
+
+
+/* story img */
+
+.sleeper_story2{
+    overflow: hidden;
+}
+
+#story_1 {
+    height: 500px;
+    width: 1320px;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 200px;
+
+}
+
+.story_wrap img{
+    position: absolute;
+    top: 0;
+    left: -300px;
+    z-index: -1;    
+    box-shadow: 2px 2px 10px;
+}
+
+
+.story_info {
+    text-align: right;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    justify-content: space-between;
+}
+
+.story_info h3, .story_info2 h3{
+    font-size: 80px;
+    line-height: 1.5em;
+    font-weight: 500;
+    color: rgb(84,84,84);
+}
+
+.story_info p, .story_info2 p{
+    padding-bottom: 30px;
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+.moon_icon img{
+    position: absolute;
+    top: 50px;
+    right: -270px;
+    animation: action1 10s infinite linear;
+}
+
+@keyframes action1 {
+    0%{ transform: rotate(0deg);}
+    100%{ transform: rotate(360deg);}
+
+}
+
+
+#story_2{
+    height: 500px;
+    width: 1320px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+.story_wrap2 img{
+    position: absolute;
+    top: 0;
+    right: -300px;
+    z-index: -3;    
+    box-shadow: 2px 2px 10px;
+}
+
+
+.story_info2 {
+    text-align: left;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: space-between;
+}
+
+
+.moon_icon2 img{
+    position: absolute;
+    top: 80px;
+    left: -270px;
+    animation: action2 10s infinite linear;
+}
+
+@keyframes action2 {
+    0%{ transform: rotate(0deg);}
+    100%{ transform: rotate(360deg);}
+
+}
+
+
+
+
+/* text flow  */
+
+.animated{            
+    /* background-color: #b4b4b4;  */
+    padding: 200px 0;
+    overflow: hidden;           
+}
+.track{
+    font-size: 113px;
+    color: rgb(85,106,143);
+    font-family: 'InkLipquid';
+    white-space: nowrap;
+    animation: textflow1 8s linear infinite;
+}
+
+@keyframes textflow1{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-50%);
+    }
+}
+
+#curation_section{
+    background: url(../images/about_images/curation_bg.png) no-repeat center;
+    height: 1796px;
+    
+}
+
+.inner_section1{
+    width: 1320px;
+    margin: 0 auto;
+    padding: 50px 0 100px 0;
+
+}
+
+.inner_section1 h4{
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 100px;
+    color: black;
+
+
+}
+
+
+.curation_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.left_box, .right_box{
+    padding-left: 50px;
+    font-size: 16px;
+    line-height: 1.5em;
+    font-weight: 400;
+}
+
+.right_box{
+    text-align: right;
+    
+}
+
+.left_box p, .right_box p{
+    padding-bottom: 25px;
+}
+
+.left_box strong, .right_box strong{
+    color: rgb(47, 64, 94);
+}
+
+
+.inner_section2{
+    width: 1320px;
+    margin: 0 auto;
+
+}
+
+.inner_section2 h4{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 100px;
+    color: black;
+
+}
+
+.inner_section2 ul{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.inner_section2 ul li{
+    width: 400px;
+    height: 400px;
+  
+}
+
+
+.inner_section2 img{
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 3px 3px 20px;
+}
+
+
+
+.curation_value{
+    position: relative;
+}
+
+
+.curation_value_text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 50%;
+
+}
+
+
+.line{
+    display: inline-block;
+    width: 80px;
+    height: 2px;
+    background-color: black;
+
+}

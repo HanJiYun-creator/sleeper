@@ -138,7 +138,7 @@ a {
 }
 
 #wrap {
-    min-width: 1320px;
+    min-width: 1400px;
 }
 
 
@@ -161,11 +161,13 @@ a {
     text-align: center;
 
 }
+.gnb> li> a{
+    margin: 0 20px;
+}
 
 .gnb> li> a:hover{
     color: rgb(255,181,181);
     text-shadow: 1px 1px 20px;
-    font-weight: 600;
 }
 
 

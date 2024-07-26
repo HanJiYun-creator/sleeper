@@ -544,6 +544,8 @@ h2{
     top: 50%;
     transform: translateY(-50%);
     cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
 }
 
 .turn {
@@ -557,7 +559,8 @@ h2{
 
 
 .text_info p {
-    font-size: 13px;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .answer {
@@ -614,7 +617,9 @@ h2{
 
 
 .text_info_2 p {
-    font-size: 13px;
+
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .more_button2:hover{

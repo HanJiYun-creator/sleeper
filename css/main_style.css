@@ -265,7 +265,7 @@ a {
 
 .b_star2 img{
     position: absolute;
-    top:  30px;
+    top:  -40px;
     right: 300px;
     animation: b_star2 3.5s infinite linear 2s;
 
@@ -274,32 +274,32 @@ a {
 
 @keyframes b_star2 {
     0% {
-        top:  30px;
+        top:  -40px;
     right: 300px;
     }
     20% {
-        top:  130px;
+        top:  60px;
         right: 400px;
     }
 
     40%{
-        top:  230px;
+        top:  160px;
         right: 500px;
     }
 
     60% {
-        top:  330px;
+        top:  260px;
         right: 600px;
     }
 
     80% {
-        top:  430px;
+        top:  360px;
     right: 700px;
     }
 
     100% 
 
-    { top:  530px;
+    { top:  460px;
         right: 800px;
        
     }
@@ -308,7 +308,7 @@ a {
 
 .b_star3 img{
     position: absolute;
-    top: 50px;
+    top: -40px;
     left: 500px;
     animation: b_star3 3s infinite linear 3s;
 }
@@ -316,32 +316,32 @@ a {
 
 @keyframes b_star3 {
     0% {
-        top: 50px;
+        top: -40px;
         left: 500px;
     }
     20% {
-        top: 150px;
+        top: 60px;
         left: 400px;
     }
 
     40%{
-        top: 250px;
+        top: 160px;
         left: 300px;
     }
 
     60% {
-        top: 350px;
+        top: 260px;
         left: 200px;
     }
 
     80% {
-        top: 450px;
+        top: 360px;
         left: 100px;
     }
 
     100% 
 
-    {   top: 550px;
+    {   top: 460px;
         left: 0px;
       
        
@@ -351,7 +351,7 @@ a {
 
 .b_star4 img{
     position: absolute;
-    top: 20px;
+    top: -40px;
     left: 100px;
     animation: b_star4 3.5s infinite linear 3s;
 }
@@ -359,32 +359,32 @@ a {
 
 @keyframes b_star4 {
     0% {
-        top: 20px;
+        top: -40px;
         left: 100px;
     }
     20% {
-        top: 120px;
+        top: 60px;
     left: 0px;
     }
 
     40%{
-        top: 220px;
+        top: 160px;
     left: -100px;
     }
 
     60% {
-        top: 320px;
+        top: 260px;
     left: -200px;
     }
 
     80% {
-        top: 420px;
+        top: 360px;
         left: -300px;
     }
 
     100% 
 
-    {   top: 520px;
+    {   top: 460px;
         left: -400px;
        
     }

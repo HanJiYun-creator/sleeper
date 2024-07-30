@@ -526,10 +526,7 @@ h2{
     margin: auto;
     background: #bcbcbc;
 }
-/* 
-.notice_bg {
-    height: 781px;
-} */
+
 
 .right .font_18 {
     position: relative;
@@ -561,6 +558,7 @@ h2{
 .text_info p {
     font-size: 14px;
     font-weight: 400;
+    line-height: 2em;
 }
 
 .answer {
@@ -620,7 +618,9 @@ h2{
 
     font-size: 14px;
     font-weight: 400;
+    line-height: 2em;
 }
+
 
 .more_button2:hover{
     background-color: rgb(138, 175, 235);
@@ -725,8 +725,17 @@ h2{
     font-weight: 500;
 }
 
+.text_box h3{
+    margin: 40px 0 10px 0;
+    color:  rgb(255,162,162);
+}
 
+.chet{
+    display: inline-block;
+    border-bottom: 2px dashed rgb(255,162,162);
+    padding: 0 5px;
 
+}
 
 
 

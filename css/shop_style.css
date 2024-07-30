@@ -843,6 +843,7 @@ a {
 
 .new_text_wrap p {
     font-size: 16px;
+    font-weight: 400;
     margin-bottom: 25px;
 
 
@@ -910,6 +911,7 @@ a {
 .old_text_wrap p {
     font-size: 16px;
     margin-bottom: 25px;
+    font-weight: 400;
 
 
 }

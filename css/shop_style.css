@@ -160,6 +160,9 @@ a {
     width: 1320px;
     margin: 0 auto;
     position: relative;
+    padding-top: 5px;
+    box-sizing: border-box;
+}
 }
 
 .gnb {
@@ -173,7 +176,6 @@ a {
 
 
 .logo {
-    margin-top: 5px;
     text-align: center;
 
 }
